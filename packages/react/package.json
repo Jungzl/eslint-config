@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "lint": "eslint . --config=index.js",
-    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+    "release": "bumpp package.json --commit \"release @jungzl/eslint-config-react v%s\" --push --tag \"react/v%s\" && pnpm publish --access public"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
