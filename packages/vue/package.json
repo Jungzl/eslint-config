@@ -1,0 +1,30 @@
+{
+  "name": "@jungzl/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "jungzl's ESLint config for Vue",
+  "author": "jungzl",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "jungzl",
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js",
+    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@jungzl/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.0.1"
+  }
+}

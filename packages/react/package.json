@@ -1,0 +1,32 @@
+{
+  "name": "@jungzl/eslint-config-react",
+  "version": "0.0.0",
+  "description": "jungzl's eslint config for react",
+  "author": "jungzl",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "jungzl",
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js",
+    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@jungzl/eslint-config-ts": "workspace:*",
+    "eslint-plugin-mobx": "^0.0.8",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  }
+}

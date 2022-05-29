@@ -1,0 +1,24 @@
+{
+  "name": "@jungzl/eslint-config-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.1.6",
+  "description": "jungzl's ESLint configuration monorepo",
+  "author": "jungzl",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "release:basic": "pnpm -F *basic release",
+    "release:ts": "pnpm -F *typescript release",
+    "release:react": "pnpm -F *react release",
+    "release:vue": "pnpm -F *vue release"
+  },
+  "devDependencies": {
+    "@jungzl/eslint-config-ts": "workspace:*",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.16.0",
+    "typescript": "^4.7.2"
+  }
+}
