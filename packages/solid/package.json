@@ -1,0 +1,30 @@
+{
+  "name": "@jungzl/eslint-config-solid",
+  "version": "0.0.0",
+  "description": "jungzl's eslint config for solid",
+  "author": "jungzl",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "jungzl",
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js",
+    "release": "bumpp package.json --commit \"release @jungzl/eslint-config-solid v%s\" --push --tag \"solid/v%s\" && pnpm publish --access public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@jungzl/eslint-config-ts": "workspace:*",
+    "eslint-plugin-solid": "^0.5.0"
+  }
+}

@@ -13,7 +13,8 @@
     "release:basic": "pnpm -F *basic release",
     "release:ts": "pnpm -F *ts release",
     "release:react": "pnpm -F *react release",
-    "release:vue": "pnpm -F *vue release"
+    "release:vue": "pnpm -F *vue release",
+    "release:solid": "pnpm -F *solid release"
   },
   "devDependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
