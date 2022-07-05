@@ -57,12 +57,12 @@ importers:
   packages/react:
     specifiers:
       '@jungzl/eslint-config-ts': workspace:*
-      eslint-plugin-mobx: ^0.0.8
+      eslint-plugin-mobx: ^0.0.9
       eslint-plugin-react: ^7.30.0
       eslint-plugin-react-hooks: ^4.5.0
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
-      eslint-plugin-mobx: 0.0.8
+      eslint-plugin-mobx: 0.0.9
       eslint-plugin-react: 7.30.0
       eslint-plugin-react-hooks: 4.5.0
 
@@ -1020,8 +1020,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-mobx/0.0.8:
-    resolution: {integrity: sha512-cOy9lo4E2uiQ3GmHOELJLCV0VYxO9WGIiGep1tyXQ6jSf5iIWjNTdO6qQgPvXrKbUCGOW/zeAOeh3Xa/nQB0LA==}
+  /eslint-plugin-mobx/0.0.9:
+    resolution: {integrity: sha512-Gef0FNICXmPf3b4UPWtVJ4hP1BsT8tLbMPYqi44K+yIw1JaRKVn1THWG71DjzXx6bIhRR5aCrPFDtrStRgCTLg==}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dev: false

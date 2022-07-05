@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
-    "eslint-plugin-mobx": "^0.0.8",
+    "eslint-plugin-mobx": "^0.0.9",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0"
   }
