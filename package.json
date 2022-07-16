@@ -9,6 +9,7 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
+    "update": "pnpm up -r -i --latest",
     "lint": "eslint . --fix",
     "release:basic": "pnpm -F *basic release",
     "release:ts": "pnpm -F *ts release",
@@ -19,7 +20,7 @@
   "devDependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
     "bumpp": "^8.0.0",
-    "eslint": "^8.16.0",
-    "typescript": "^4.7.2"
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
   }
 }
