@@ -16,6 +16,7 @@ importers:
 
   packages/basic:
     specifiers:
+      eslint: ^8.0.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.5.0
       eslint-config-standard: ^17.0.0
@@ -53,10 +54,13 @@ importers:
       eslint-plugin-yml: 1.0.0_eslint@8.19.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.0.1
+    devDependencies:
+      eslint: 8.19.0
 
   packages/react:
     specifiers:
       '@jungzl/eslint-config-ts': workspace:*
+      eslint: ^8.0.0
       eslint-plugin-mobx: ^0.0.9
       eslint-plugin-react: ^7.30.1
       eslint-plugin-react-hooks: ^4.6.0
@@ -65,32 +69,45 @@ importers:
       eslint-plugin-mobx: 0.0.9_eslint@8.19.0
       eslint-plugin-react: 7.30.1_eslint@8.19.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.19.0
+    devDependencies:
+      eslint: 8.19.0
 
   packages/solid:
     specifiers:
       '@jungzl/eslint-config-ts': workspace:*
+      eslint: ^8.0.0
       eslint-plugin-solid: ^0.7.1
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
       eslint-plugin-solid: 0.7.1_4x5o4skxv6sl53vpwefgt23khm
+    devDependencies:
+      eslint: 8.19.0
 
   packages/typescript:
     specifiers:
       '@jungzl/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.30.6
       '@typescript-eslint/parser': ^5.30.6
+      eslint: ^8.0.0
+      typescript: ^4.7.2
     dependencies:
       '@jungzl/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.30.6_2vt5mtrqleafs33qg2bhpmbaqm
       '@typescript-eslint/parser': 5.30.6_4x5o4skxv6sl53vpwefgt23khm
+    devDependencies:
+      eslint: 8.19.0
+      typescript: 4.7.4
 
   packages/vue:
     specifiers:
       '@jungzl/eslint-config-ts': workspace:*
+      eslint: ^8.0.0
       eslint-plugin-vue: ^9.2.0
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.2.0_eslint@8.19.0
+    devDependencies:
+      eslint: 8.19.0
 
 packages:
 
@@ -1688,7 +1705,7 @@ packages:
     dev: false
 
   /isexe/2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -1883,7 +1900,7 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
   /natural-compare/1.4.0:
-    resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
+    resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
   /node-releases/2.0.5:
     resolution: {integrity: sha512-U9h1NLROZTq9uE1SNffn6WuPDg8icmi3ns4rEl/oTfIle4iLjTliCzgTsbaIFMq/Xn078/lfY/BL0GWZ+psK4Q==}
