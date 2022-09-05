@@ -36,6 +36,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.1
     dependencies:
+      eslint: 8.19.0
       eslint-config-airbnb-base: 15.0.0_q2xwze32dd33a2fc2qubwr4ie4
       eslint-config-prettier: 8.5.0_eslint@8.19.0
       eslint-config-standard: 17.0.0_3y77imf4oat3akor274t4exgn4
@@ -54,8 +55,6 @@ importers:
       eslint-plugin-yml: 1.0.0_eslint@8.19.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.0.1
-    devDependencies:
-      eslint: 8.19.0
 
   packages/react:
     specifiers:
@@ -66,11 +65,10 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
+      eslint: 8.19.0
       eslint-plugin-mobx: 0.0.9_eslint@8.19.0
       eslint-plugin-react: 7.30.1_eslint@8.19.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.19.0
-    devDependencies:
-      eslint: 8.19.0
 
   packages/solid:
     specifiers:
@@ -79,9 +77,8 @@ importers:
       eslint-plugin-solid: ^0.7.1
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
-      eslint-plugin-solid: 0.7.1_eslint@8.19.0
-    devDependencies:
       eslint: 8.19.0
+      eslint-plugin-solid: 0.7.1_eslint@8.19.0
 
   packages/typescript:
     specifiers:
@@ -94,7 +91,6 @@ importers:
       '@jungzl/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.30.6_2vt5mtrqleafs33qg2bhpmbaqm
       '@typescript-eslint/parser': 5.30.6_4x5o4skxv6sl53vpwefgt23khm
-    devDependencies:
       eslint: 8.19.0
       typescript: 4.7.4
 
@@ -105,9 +101,8 @@ importers:
       eslint-plugin-vue: ^9.2.0
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
-      eslint-plugin-vue: 9.2.0_eslint@8.19.0
-    devDependencies:
       eslint: 8.19.0
+      eslint-plugin-vue: 9.2.0_eslint@8.19.0
 
 packages:
 
