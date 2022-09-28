@@ -2,12 +2,21 @@
   "extends": [
     "config:base"
   ],
+  "semanticCommits": "auto",
   "packageRules": [
     {
       "matchPackagePatterns": [
         "*"
       ],
       "rangeStrategy": "replace"
+    },
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true
     }
   ]
 }
