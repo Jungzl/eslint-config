@@ -31,7 +31,7 @@ importers:
       eslint-plugin-markdown: ^3.0.0
       eslint-plugin-n: ^15.3.0
       eslint-plugin-promise: ^6.0.1
-      eslint-plugin-unicorn: ^43.0.2
+      eslint-plugin-unicorn: ^44.0.0
       eslint-plugin-yml: ^1.2.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
@@ -51,7 +51,7 @@ importers:
       eslint-plugin-markdown: 3.0.0_eslint@8.24.0
       eslint-plugin-n: 15.3.0_eslint@8.24.0
       eslint-plugin-promise: 6.0.1_eslint@8.24.0
-      eslint-plugin-unicorn: 43.0.2_eslint@8.24.0
+      eslint-plugin-unicorn: 44.0.0_eslint@8.24.0
       eslint-plugin-yml: 1.2.0_eslint@8.24.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.1.0
@@ -1226,11 +1226,11 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-unicorn/43.0.2_eslint@8.24.0:
-    resolution: {integrity: sha512-DtqZ5mf/GMlfWoz1abIjq5jZfaFuHzGBZYIeuJfEoKKGWRHr2JiJR+ea+BF7Wx2N1PPRoT/2fwgiK1NnmNE3Hg==}
+  /eslint-plugin-unicorn/44.0.0_eslint@8.24.0:
+    resolution: {integrity: sha512-GbkxkdNzY7wNEfZnraAP+oA+aqqzSrNZmO37kjW1DyqnSK/ah08ySDdIecObpx46twv+zcQvH8i0CHP98Wo64w==}
     engines: {node: '>=14.18'}
     peerDependencies:
-      eslint: '>=8.18.0'
+      eslint: '>=8.23.1'
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
       ci-info: 3.4.0
