@@ -110,7 +110,7 @@ module.exports = {
     'vue/dot-location': ['error', 'property'],
     'vue/dot-notation': ['error', { allowKeywords: true }],
     'vue/eqeqeq': ['error', 'smart'],
-    // 'vue/func-call-spacing': ['off', 'never'],
+    'vue/func-call-spacing': ['error', 'never'],
     'vue/key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'vue/keyword-spacing': ['error', { before: true, after: true }],
     'vue/no-constant-condition': 'warn',
