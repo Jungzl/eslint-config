@@ -147,7 +147,7 @@ module.exports = {
     'vue/quote-props': ['error', 'consistent-as-needed'],
     'vue/script-indent': ['error', 2, {
       baseIndent: 1,
-      switchCase: 0,
+      switchCase: 1,
       ignores: [],
     }],
     'vue/space-in-parens': ['error', 'never'],
