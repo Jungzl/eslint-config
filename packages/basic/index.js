@@ -87,6 +87,7 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'no-trailing-spaces': ['error'],
     'no-whitespace-before-property': ['error'],
+    'padded-blocks': ['error', 'never'],
 
     // es6
     'no-var': 'error',
