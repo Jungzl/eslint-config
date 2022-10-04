@@ -84,7 +84,7 @@ module.exports = {
     'rest-spread-spacing': ['error', 'never'],
     'space-before-function-paren': ['error', { anonymous: 'always', named: 'never', asyncArrow: 'always' }],
     'space-in-parens': ['error', 'never'],
-    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 1 }],
+    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'no-trailing-spaces': ['error'],
     'no-whitespace-before-property': ['error'],
 
