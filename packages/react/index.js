@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@jungzl/eslint-config-ts', 'plugin:react/recommended'],
+  extends: ['@jungzl/eslint-config-ts', 'plugin:react/recommended', 'plugin:valtio/recommended'],
   plugins: ['react', 'react-hooks', 'mobx'],
   rules: {
     // jsx

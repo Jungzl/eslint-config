@@ -63,12 +63,14 @@ importers:
       eslint-plugin-mobx: ^0.0.9
       eslint-plugin-react: ^7.31.8
       eslint-plugin-react-hooks: ^4.6.0
+      eslint-plugin-valtio: ^0.6.1
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
       eslint: 8.24.0
       eslint-plugin-mobx: 0.0.9_eslint@8.24.0
       eslint-plugin-react: 7.31.8_eslint@8.24.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.24.0
+      eslint-plugin-valtio: 0.6.1
 
   packages/solid:
     specifiers:
@@ -1247,6 +1249,11 @@ packages:
       safe-regex: 2.1.1
       semver: 7.3.7
       strip-indent: 3.0.0
+    dev: false
+
+  /eslint-plugin-valtio/0.6.1:
+    resolution: {integrity: sha512-oFfE++Eix1lsW2DmmmQyJrwkjbA2QC3PYj8u82c4IuxtG90Qq9zx2rwrZVjWEL2xba+7oE/GGuujz2/nA1Bmlg==}
+    engines: {node: '>=12.7.0'}
     dev: false
 
   /eslint-plugin-vue/9.5.1_eslint@8.24.0:

@@ -2,7 +2,6 @@
   "name": "@jungzl/eslint-config-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@7.13.4",
   "description": "jungzl's ESLint configuration monorepo",
   "author": "jungzl",
   "license": "MIT",
