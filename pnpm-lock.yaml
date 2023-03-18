@@ -76,11 +76,11 @@ importers:
     specifiers:
       '@jungzl/eslint-config-ts': workspace:*
       eslint: ^8.0.0
-      eslint-plugin-solid: ^0.8.0
+      eslint-plugin-solid: ^0.11.0
     dependencies:
       '@jungzl/eslint-config-ts': link:../typescript
       eslint: 8.24.0
-      eslint-plugin-solid: 0.8.0_ypn2ylkkyfa5i233caldtndbqa
+      eslint-plugin-solid: 0.11.0_ypn2ylkkyfa5i233caldtndbqa
 
   packages/typescript:
     specifiers:
@@ -1172,8 +1172,8 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: false
 
-  /eslint-plugin-solid/0.8.0_ypn2ylkkyfa5i233caldtndbqa:
-    resolution: {integrity: sha512-yzTpqZ4+qGO14aM2rii9waonMNqSlpXHID2GMREYCOWpbIrkC5gILXpLl/+ZWFHSJDvsQN+/COobBkqizn7pkw==}
+  /eslint-plugin-solid/0.11.0_ypn2ylkkyfa5i233caldtndbqa:
+    resolution: {integrity: sha512-3ve6IpEtl8nOvJnjaJACqlBmv449l6dMMhMczjQWvvLlRqkzLemgsJ9H+Isu8GLSBTNxDIm5oSKx/lO2j8vKbA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
