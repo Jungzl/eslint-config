@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@jungzl/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1"
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
   }
 }
