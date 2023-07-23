@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.24.0",
-    "typescript": "^5.0.0"
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6"
   }
 }
