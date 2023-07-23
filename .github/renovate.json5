@@ -1,0 +1,20 @@
+{
+  extends: ["config:base", "schedule:weekly", "group:allNonMajor"],
+  labels: ["dependencies", "devDependencies", "peerDependencies", "optionalDependencies"],
+  rangeStrategy: "bump",
+  semanticCommits: "auto",
+  packageRules: [
+    {
+      "matchPackagePatterns": ["*"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true
+    }
+  ]
+}

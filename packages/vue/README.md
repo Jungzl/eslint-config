@@ -15,5 +15,5 @@ Then add the following to your `.eslintrc.js`:
 ```js
 module.exports = {
   extends: '@jungzl/eslint-config-vue',
-};
+}
 ```
