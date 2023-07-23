@@ -1,6 +1,6 @@
 {
   "name": "@jungzl/eslint-config-ts",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "jungzl's ESLint configuration for TypeScript",
   "author": "jungzl",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "@jungzl/eslint-config-react",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "jungzl's eslint config for react",
   "author": "jungzl",
   "license": "MIT",

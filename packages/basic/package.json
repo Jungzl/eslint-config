@@ -1,6 +1,6 @@
 {
   "name": "@jungzl/eslint-config-basic",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "jungzl's basic eslint config",
   "author": "jungzl",
   "license": "MIT",
