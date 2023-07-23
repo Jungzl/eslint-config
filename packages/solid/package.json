@@ -1,6 +1,6 @@
 {
   "name": "@jungzl/eslint-config-solid",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "jungzl's eslint config for solid",
   "author": "jungzl",
   "license": "MIT",
