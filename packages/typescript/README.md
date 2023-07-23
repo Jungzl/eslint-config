@@ -1,7 +1,7 @@
 # eslint-config
 Jungzl's eslint config with typescript 🦄
 
-This config extends [@jungzl/eslint-config-basic](https://github.com/jungzl/eslint-config/tree/main/packages/basic)
+This config extends [@jungzl/eslint-config-basic](https://github.com/Jungzl/eslint-config/tree/main/packages/basic)
 
 ### 🛠️ Usage
 

@@ -4,14 +4,14 @@
   "description": "jungzl's eslint config for solid",
   "author": "jungzl",
   "license": "MIT",
-  "homepage": "https://github.com/jungzl/eslint-config/tree/main/packages/solid#readme",
+  "homepage": "https://github.com/Jungzl/eslint-config/tree/main/packages/solid#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jungzl/eslint-config",
+    "url": "https://github.com/Jungzl/eslint-config",
     "directory": "packages/solid"
   },
   "bugs": {
-    "url": "https://github.com/jungzl/eslint-config/issues"
+    "url": "https://github.com/Jungzl/eslint-config/issues"
   },
   "publishConfig": {
     "access": "public"

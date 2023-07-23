@@ -4,14 +4,14 @@
   "description": "jungzl's ESLint config for Vue",
   "author": "jungzl",
   "license": "MIT",
-  "homepage": "https://github.com/jungzl/eslint-config/tree/main/packages/vue#readme",
+  "homepage": "https://github.com/Jungzl/eslint-config/tree/main/packages/vue#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jungzl/eslint-config",
+    "url": "https://github.com/Jungzl/eslint-config",
     "directory": "packages/vue"
   },
   "bugs": {
-    "url": "https://github.com/jungzl/eslint-config/issues"
+    "url": "https://github.com/Jungzl/eslint-config/issues"
   },
   "publishConfig": {
     "access": "public"

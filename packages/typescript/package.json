@@ -4,14 +4,14 @@
   "description": "jungzl's ESLint configuration for TypeScript",
   "author": "jungzl",
   "license": "MIT",
-  "homepage": "https://github.com/jungzl/eslint-config/tree/main/packages/typescript#readme",
+  "homepage": "https://github.com/Jungzl/eslint-config/tree/main/packages/typescript#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jungzl/eslint-config",
+    "url": "https://github.com/Jungzl/eslint-config",
     "directory": "packages/typescript"
   },
   "bugs": {
-    "url": "https://github.com/jungzl/eslint-config/issues"
+    "url": "https://github.com/Jungzl/eslint-config/issues"
   },
   "publishConfig": {
     "access": "public"

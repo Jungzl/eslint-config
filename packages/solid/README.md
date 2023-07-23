@@ -1,7 +1,7 @@
 # eslint-config
 Jungzl's eslint config for solid project 🦄
 
-This config extends [@jungzl/eslint-config-ts](https://github.com/jungzl/eslint-config/tree/main/packages/typescript)
+This config extends [@jungzl/eslint-config-ts](https://github.com/Jungzl/eslint-config/tree/main/packages/typescript)
 
 ### 🛠️ Usage
 
