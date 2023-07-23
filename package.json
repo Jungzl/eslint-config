@@ -6,8 +6,6 @@
   "description": "jungzl's ESLint configuration monorepo",
   "author": "jungzl",
   "license": "MIT",
-  "keywords": [],
-  "main": "index.js",
   "scripts": {
     "update": "pnpm up -r -i --latest",
     "lint": "eslint . --fix",
