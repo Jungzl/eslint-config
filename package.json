@@ -11,15 +11,12 @@
   "scripts": {
     "update": "pnpm up -r -i --latest",
     "lint": "eslint . --fix",
-    "release:basic": "pnpm -F *basic release",
-    "release:ts": "pnpm -F *ts release",
-    "release:react": "pnpm -F *react release",
-    "release:vue": "pnpm -F *vue release",
-    "release:solid": "pnpm -F *solid release"
+    "release": "bumpp -r"
   },
   "devDependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
     "bumpp": "^9.1.1",
+    "conventional-changelog-cli": "^3.0.0",
     "eslint": "^8.45.0",
     "typescript": "^5.1.6"
   }

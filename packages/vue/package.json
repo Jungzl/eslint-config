@@ -17,8 +17,7 @@
     "*.js"
   ],
   "scripts": {
-    "lint": "eslint . --config=index.js",
-    "release": "bumpp package.json --commit \"release @jungzl/eslint-config-vue v%s\" --push --tag \"vue/v%s\" && pnpm publish --access public"
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
