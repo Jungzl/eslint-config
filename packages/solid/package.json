@@ -4,6 +4,15 @@
   "description": "jungzl's eslint config for solid",
   "author": "jungzl",
   "license": "MIT",
+  "homepage": "https://github.com/jungzl/eslint-config/tree/main/packages/solid#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jungzl/eslint-config",
+    "directory": "packages/solid"
+  },
+  "bugs": {
+    "url": "https://github.com/jungzl/eslint-config/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
