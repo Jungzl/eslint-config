@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
-    "eslint-plugin-solid": "^0.13.0"
+    "eslint-plugin-solid": "^0.14.0"
   }
 }
