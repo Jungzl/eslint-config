@@ -29,7 +29,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   },
   "dependencies": {
     "@jungzl/eslint-config-ts": "workspace:*",
